@@ -18,4 +18,5 @@ function karatsuba(num1, num2)
     
     return (z2 × 10 ^ (m2 × 2)) + ((z1 - z2 - z0) × 10 ^ m2) + z0
 
-Adaptado de: https://en.wikipedia.org/wiki/Karatsuba_algorithm 
+Adaptado de: https://en.wikipedia.org/wiki/Karatsuba_algorithm,
+https://www.geeksforgeeks.org/karatsuba-algorithm-in-python/ 
