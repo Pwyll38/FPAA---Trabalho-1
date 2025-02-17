@@ -79,7 +79,45 @@ Retorno:
 
 #### Relatório técnico 
 
+**Complexidade ciclomática**
 
+Fluxo de controle: 
+    1. Verifica se o arquivo rondando o código é o main.
+        Se verdadeiro: continua a execussão do programa
+        Se falso: Finaliza a execussão
+    2. Receber o primeiro número.
+    3. Receber o segundo número.
+    4. Executa a função "karatsuba" com os dois números como entrada.
+    5. Verifica se os números são maiores que 10
+        Se verdadeiro: retorna a multiplicação dos números pelo método tradicional. 
+        Se falso: continua a execussão do método
+    6. Guarda o maior entre os dois números
+    7. Pega a metade desse valor. 
+    8. Preenche a string de 0s até o tamanho do maior número no primeiro.
+    9. Preenche a string de 0s até o tamanho do maior número no segundo. 
+    10. Separa as metades do primero número.
+    11. Separa as metades do segundo número.
+    12. Calcula o produto da primeira metade dos números divididos.
+    13. Calcula o produto da segunda metade dos números divididos.
+    14. Adiciona as metades e encontra o produto dos dois
+    15. Encontra a diferença entre as metades.
+    16. Retorna o valor sem os 0s a mais.
+
+**Valor da complexidade**
+
+Nós(N): 26
+Arestas(E): 25
+
+Complexidade ciclomática(M) = E - N + 2P
+
+Complexidade ciclomática = 25 - 26 + 2*1
+
+Complexidade ciclomática = 2
+
+**Complexidade Assintótica**
+
+Complexidade espacial: O(n)
+Complexidade da multiplicação: O(n^log2(3))
 
 #### Grafo de fluxo
 
@@ -91,3 +129,5 @@ https://www.geeksforgeeks.org/karatsuba-algorithm-in-python/
 https://github.com/joaopauloaramuni/fundamentos-de-projeto-e-analise-de-algoritmos/tree/main/PROJETOS
 
 http://www.ccas.ru/personal/karatsuba/divcen.pdf 
+
+https://www.bigocalc.com/ 
