@@ -1,3 +1,21 @@
+### Implementação do Algoritmo de Karatsuba em Python
+
+#### Descrição do projeto
+
+O método de Karatsuba tem como objetivo a multiplicação de dois numeros de forma mais fácil do que o método iterativo. Para isso, o algoritmo emprega a lógica de "divide and conquer", na qual se substitui a multiplicação de dois números grandes por três números menores. 
+
+
+
+Descrição do projeto: Explicação do algoritmo e da lógica de como ele
+foi implementado (linha a linha)
+
+#### Como executar o projeto
+
+#### Relatório técnico 
+
+#### Grafo de fluxo
+
+
 function karatsuba(num1, num2)
     if (num1 < 10 or num2 < 10)
         return num1 × num2 /* fall back to traditional multiplication */
@@ -20,3 +38,5 @@ function karatsuba(num1, num2)
 
 Adaptado de: https://en.wikipedia.org/wiki/Karatsuba_algorithm,
 https://www.geeksforgeeks.org/karatsuba-algorithm-in-python/ 
+https://github.com/joaopauloaramuni/fundamentos-de-projeto-e-analise-de-algoritmos/tree/main/PROJETOS
+http://www.ccas.ru/personal/karatsuba/divcen.pdf 
