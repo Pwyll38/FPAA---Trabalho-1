@@ -119,11 +119,12 @@ Fluxo de controle:
     15. Encontra a diferença entre as metades.
 
     16. Retorna o valor sem os 0s a mais.
-    
+
 
 **Valor da complexidade**
 
 Nós(N): 26
+
 Arestas(E): 25
 
 Complexidade ciclomática(M) = E - N + 2P
@@ -135,6 +136,7 @@ Complexidade ciclomática = 2
 **Complexidade Assintótica**
 
 Complexidade espacial: O(n)
+
 Complexidade da multiplicação: O(n^log2(3))
 
 #### Grafo de fluxo
@@ -142,6 +144,7 @@ Complexidade da multiplicação: O(n^log2(3))
 ![Grafo de fluxo](graph.png)
 
 #### Links úteis
+
 https://en.wikipedia.org/wiki/Karatsuba_algorithm
 
 https://www.geeksforgeeks.org/karatsuba-algorithm-in-python/ 
