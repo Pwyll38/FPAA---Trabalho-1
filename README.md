@@ -76,8 +76,7 @@ Retorno:
 3. Recebe os números a serem múltiplicados
 4. Executa o método de Karatsuba e imprime o resultado
 
-
-#### Relatório técnico 
+### Relatório técnico 
 
 **Complexidade ciclomática**
 
@@ -120,6 +119,8 @@ Complexidade espacial: O(n)
 Complexidade da multiplicação: O(n^log2(3))
 
 #### Grafo de fluxo
+
+![Grafo de fluxo](graph.png)
 
 #### Links úteis
 https://en.wikipedia.org/wiki/Karatsuba_algorithm
